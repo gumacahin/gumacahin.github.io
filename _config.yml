@@ -13,10 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Marco Enrico’s Website
-email: mvalviar@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hello! I’m Marco Enrico. Welcome to my website.
+title: Marco Enrico
+email: ""
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marcoenri.co" # the base hostname & protocol for your site
 twitter_username: mvalviar
