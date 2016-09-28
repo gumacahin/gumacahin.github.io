@@ -5,7 +5,7 @@ tags: michron "time lapse"
 category: photography
 ---
 
-![a picture of Michron](http://i.imgur.com/53alchg.jpg "Michron")
+![a picture of Michron](http://i.imgur.com/53alchgh.jpg)
 
 Michron is a neat little time lapse gadget by Alpine Labs. If find it very useful
 but takes a lot of time and patience to master, especially if you plan on doing

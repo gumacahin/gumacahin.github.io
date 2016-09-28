@@ -28,5 +28,5 @@ sank. Below is a picture of the *ginanga* she cooked. I just told her never to
 make *ginanga* ever again. It's probably the picture of the last *ginanga*
 she'll ever prepare for our family.
 
-![my wife's last ginanga](http://i.imgur.com/BEJW9SB.jpg)
+![my wife's last ginanga](http://i.imgur.com/BEJW9SBh.jpg)
 
