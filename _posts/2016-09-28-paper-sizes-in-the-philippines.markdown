@@ -6,7 +6,7 @@ category: personal
 ---
 
 I can't understand why Filipino has mixed standards when it comes to
-measurements. Whenever you go to any stores and you tell them how much of the
+measurements. Whenever you go to any store and you tell them how much of the
 item you are purchasing you'll always have to confirm the unit of measure. For
 example, when you ask for the price of a length of wire it's probably by the
 meter. A length of cloth? That's by the yard. How about volume? Water from the
@@ -66,6 +66,11 @@ I go. I found out that US paper sizes are standard in the US, Philippines and
 Chile. However, Chile and the Philippines' legal size is 8.5 × 13!
 
 td;dr: Short: 8.5 × 11, Long: 8.5 × 13
+
+<ins datetime="Wed Sep 28 10:10:39 PHT 2016">I posted a [PSA](https://www.reddit.com/r/Philippines/comments/54tdq1/psa_our_short_bond_paper_is_85_11_inches_or_us/ "links to reddit post")
+in [/r/Philippines](https://www.reddit.com/r/Philippines "links to the Philippine subreddit") in the ensuing
+discussion I found out that 8.5 × 13 is known as
+FanFoldGermanLegal according to [Adobe](http://partners.adobe.com/public/developer/en/ps/5003.PPD_Spec_v4.3.pdf "links to adobe's spec sheet").</ins>
 
 
 
