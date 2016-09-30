@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Paper Sizes in the Philippines"
-date:   2016-09-22 18:36:00 +0800
+date:   2016-09-28 18:36:00 +0800
 category: personal
 ---
 
