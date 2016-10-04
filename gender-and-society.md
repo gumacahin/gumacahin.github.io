@@ -23,12 +23,19 @@ The requirement of the assigment is stated as thus:
 > learners, lasting 15-18 minutes, video-recorded and documented in a write-up 
 > for submission.
 
-I delivered a short lecture to the staffers of “Ang Muog”, the student newspaper
-in Filipino of Gumaca National High School.
+I delivered a short lecture to the staffers and advisers of “Ang Muog”, the
+student newspaper in Filipino of Gumaca National High School on the
+4<sup>th<sup> of October 2016. 
 
 ## The Recording
 
 <iframe width="740" height="416" src="https://www.youtube.com/embed/4DUTstO3jrU" frameborder="0" allowfullscreen></iframe>
+
+This recording was made with a Canon EF-S 10--18mm 4.5--5.6 IS STM lens, mounted
+on a Canon 70D. It was preprocessed with Adobe Premier Pro. Text credits were
+added. Lighting was adjusted as well. Other than concatenating the two clips
+(the recording was automatically split into two due to the 4GB limitation of
+FAT32) no cuts or edits whatsoever was made on the clips.
 
 
 ## Prezi Presentation: Gender and Society
