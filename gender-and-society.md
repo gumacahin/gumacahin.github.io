@@ -51,6 +51,7 @@ FAT32) no cuts or edits whatsoever was made on the clips.
 * Socialization[1].ppt, <http://www.slideshare.net/kamranishfaq/socialization1ppt>
 * AGENTS OF SOCIALIZATION, <http://hrsbstaff.ednet.ns.ca/mskinner/Sociology/Socialization/agents_of_socialization.htm>
 * Gender Discrimination, <https://prezi.com/pza-0esb12sc/gender-discrimination/>
+* KASAYSAYAN NG PASYONG MAHAL NI HESUKRISTONG PANGINOON NATIN <https://upload.wikimedia.org/wikipedia/commons/9/9c/Pasyon.pdf>
 
 ## Useful Links and Resources
 * Global Gender Gap Report, <https://www.weforum.org/reports/global-gender-gap-report-2015/>
