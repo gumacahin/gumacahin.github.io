@@ -25,7 +25,7 @@ The requirement of the assigment is stated as thus:
 
 I delivered a short lecture to the staffers and advisers of “Ang Muog”, the
 student newspaper in Filipino of Gumaca National High School on the
-4<sup>th<sup> of October 2016. 
+4<sup>th</sup> of October 2016. 
 
 ## The Recording
 
