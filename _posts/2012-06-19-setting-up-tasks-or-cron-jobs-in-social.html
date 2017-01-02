@@ -1,0 +1,15 @@
+---
+layout: post
+title: Setting Up Tasks or Cron Jobs in Social Engine
+date: '2012-06-19T03:01:00.000-07:00'
+author: Marco Enrico
+tags:
+- jobs
+- cron
+- tasks
+modified_time: '2012-08-30T20:19:53.951-07:00'
+blogger_id: tag:blogger.com,1999:blog-8533127149230967660.post-8440059357413314979
+blogger_orig_url: http://social-engine-tutorials.blogspot.com/2012/06/setting-up-tasks-or-cron-jobs-in-social.html
+---
+
+To set up a periodically running task in social engine one we must create tasks. Periodically running tasks are usually accomplished by setting up a cron job. But in social engine we piggy back in the task scheduler which can be set up to trigger in a number of ways. Cron being one of them.<br /><br />The first step is to add a row for our task in the table engine4_core_tasks. The only fields you need to are:<br /><ul><li>title - this is the text that appears under "Name" in the task scheduler page</li><li>module - which module the task belongs. Disabling the module also disables the task</li><li>plugin - the class that defines the action to run. Named &lt;ModuleName&gt;_Plugin_Task_&lt;TaskName&gt;</li><li>timeout - the number of seconds between task execution. Setting this to 60 means your task will execute every minute.</li></ul>You may add this query in the settings/my.sql or settings my.upgrade-x.x.x-x.x.x.sql in case of upgrades.<br /><br />Next we need to define the plugin class. This is located in application/modules/&lt;ModuleName&gt;/Plugin/Task/&lt;TaskName&gt;.&nbsp; We just need to extends Core_Plugin_Task_Abstract and define the public method execute. Within this method we write the statements the we need to run when the task is executed.<br /><br />There are a lot of useful information in the tasks log. I suggest you monitor this log as during testing and debugging. In addition you may add debugging information in this log with $this-&gt;getLog()-&gt;debug('&lt;debug info&gt;').

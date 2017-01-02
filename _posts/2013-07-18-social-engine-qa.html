@@ -1,0 +1,18 @@
+---
+layout: post
+title: Social Engine Q/A
+date: '2013-07-18T14:20:00.000-07:00'
+author: Marco Enrico
+tags:
+- socialengine
+- social engine 4
+- questions
+- faq
+- social engine
+- social engine php
+modified_time: '2013-07-23T03:42:46.210-07:00'
+blogger_id: tag:blogger.com,1999:blog-8533127149230967660.post-6386301783681979099
+blogger_orig_url: http://social-engine-tutorials.blogspot.com/2013/07/social-engine-qa.html
+---
+
+This post is intended to be some sort of quick reference for SE4 developers. I'll start off with a few questions and answers. Feel free to leave a question in the comments and I'll try my best to give you an answer.<br /><br /><h3>In the view how do I get the viewer/subject?</h3>You may use the view helpers viewer and subject. In the view script they are invoked like so: $this-&gt;viewer() and $this-&gt;subject() respectively. Note that the viewer view helper will return and User_Model_User object even when there isn't any user logged in. To check if a user is currently logged in check the value of $this-&gt;viewer()-&gt;getIdentity(). This will return the user_id of the currently logged in user if a user is logged, zero otherwise. The subject view helper will return the subject if set, null otherwise.<br /><br /><h3>Is there an easy way to get a setting in the view?</h3>Yes. You may use the setting view helper to get the value of a setting. In the view script it is invoked this way: $this-&gt;settings('setting.name', [default value]). This view helper accepts the same parameters as Engine_Api::_()-&gt;getApi('settings', 'core')-&gt;getSetting(...).<br /><br /><h3>I need the id of the page's subject for some javascript. Where do I get it?</h3>The id, type and guid of the of subject of a page (if any) is stored in en4.core.subject.<br /><br /><h3>How do I determine which module, controller, and action is rendering a page?</h3>Examine the id attribute of the body element. The value of this attribute is "global_page_&lt;module_name&gt;-&lt;controller_name&gt;-&lt;action_name&gt;.<br /><br /><h3>How do I determine the name of the currently active theme?</h3>Check via the admin panel or examine the class of the body element in any user facing page. The value of this attribute is given as "layout_active_theme_&lt;theme-name&gt;".<br /><br /><h3>In a fresh install of SE4/SE PHP the css breaks when I try put the site in development mode. What gives?</h3>In some versions of of SE4 the default theme is "Clean". This theme happens to have a missing image. You can see this message when you view the rendered CSS. To fix this either you remove the offending line or switch to another theme. If you plan on fixing this my removing the offending line, please note that commenting it out with /*...*/ wont work as it is still parsed by SE4.<br /><h3>I added a hidden two hidden form field in a form but only the last one I added is showing up. What's wrong?</h3>Be sure to set the order option in the in the element parameters. By default all Engine_Form_Element_Hidden have this set to 999. Having the same value for order results in one of them being lost to the void.<br /><br />

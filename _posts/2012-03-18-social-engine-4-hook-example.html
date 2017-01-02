@@ -1,0 +1,19 @@
+---
+layout: post
+title: Social Engine 4 Hook Example
+date: '2012-03-18T17:32:00.001-07:00'
+author: Marco Enrico
+tags:
+- socialengine
+- example
+- customization
+- hook
+- onuserloginafter
+- onuserloginbefore
+- se4
+modified_time: '2012-06-11T21:00:56.564-07:00'
+blogger_id: tag:blogger.com,1999:blog-8533127149230967660.post-4883197558420232105
+blogger_orig_url: http://social-engine-tutorials.blogspot.com/2012/03/social-engine-4-hook-example.html
+---
+
+<span style="font-size: large;">Introduction</span><br /><br />Following up on my previous post about <a href="{{ site.baseurl }}{% post_url 2012-03-13-complete-list-of-social-engine-4-hooks %}">SE4 hooks</a>. On this post we create a simple hook. For example we want to create a reward system. We reward a user a point&nbsp; per log-in per day i.e. a user gets a point if he logs in in a particular day but the point is only rewarded once per day. We encapsulate this feature in a theoretical plugin called "point-module."<br /><br /><span style="font-size: large;">Letting SE4 Know</span><br /><br />We need to let SE4 know that we plan on hooking to an event. In particular the event when the user successfully logged in. SE4 has an aptly named event "onUserLoginBefore" which is triggered when the user successfully logs in but before the lastlogin_date field is updated.&nbsp; On our module's manifest--the file application/modules/&lt;module_name&gt;/settings/manifest.php we put  <br /><pre class="brush:php"> <br />array (<br />    'type' =&gt; 'module',<br />    'name' =&gt; 'point',<br />    'version' =&gt; '4.0.0',<br />    'path' =&gt; 'application/modules/Point',<br />    'title' =&gt; 'Points',<br />    'description' =&gt; 'Points',<br />    'author' =&gt; 'Marco Enrico',<br />    'callback' =&gt; <br />    array (<br />      'class' =&gt; 'Engine_Package_Installer_Module',<br />    ),<br />    'actions' =&gt; <br />    array (<br />      0 =&gt; 'install',<br />      1 =&gt; 'upgrade',<br />      2 =&gt; 'refresh',<br />      3 =&gt; 'enable',<br />      4 =&gt; 'disable',<br />    ),<br />    'directories' =&gt; <br />    array (<br />      0 =&gt; 'application/modules/Point',<br />    ),<br />    'files' =&gt; <br />    array (<br />      0 =&gt; 'application/languages/en/point.csv',<br />    ),<br />  ),<br />  // Hooks ---------------------------------------------------------------------<br />  'hooks' =&gt; array(<br />    array(<br />      'event' =&gt; 'onUserLoginBefore',<br />      'resource' =&gt; 'Point_Plugin_Core'<br />    )<br />  )<br />);<br /></pre><br />This lets SE4 know that we plan on handling the "onUserLoginBefore" event with an instance of the class Point_Plugin_Core.<br /><br /><span style="font-size: large;">The Handler</span><br /><br />Next we create the handler for the event. In application/modules/Point/Plugin/Core.php:<br /><pre class="brush:php"><br /><br /><br />class Point_Plugin_Core extends Core_Plugin_Abstract<br />{<br />  public function onUserLoginBefore($event)<br />  {<br />    $user = $event-&gt;getPayload();<br /><br />    if (date('d', strtotime($user-&gt;lastlogin_date)) != date('d')) {<br />      // user's first time to login today<br />      // add points...<br />      // ...<br />      $this-&gt;addPoints(1);<br />    }<br />  }<br /><br />  public function addPoints($points, $user = null)<br />  {<br />    //...<br />    <br />  }<br /><br />}<br /></pre><br /><span style="font-size: large;">Summary</span><br /><br />This example illustrates that it's pretty simple to implement a social engine hook. All you really have to know is which hook best serves the task you're trying to accomplish. "What if none of the hooks apply to a customization I'm trying to accomplish?", you ask. There are other ways which is a subject of another post.<br /><br />

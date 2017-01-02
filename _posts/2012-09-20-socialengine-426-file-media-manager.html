@@ -1,0 +1,19 @@
+---
+layout: post
+title: SocialEngine 4.2.6 File & Media Manager Download Error
+date: '2012-09-20T01:45:00.000-07:00'
+author: Marco Enrico
+tags:
+- socialengine
+- 4.2.6
+- error
+- file manager
+- download
+- social engine php
+modified_time: '2012-09-20T01:45:51.833-07:00'
+thumbnail: http://2.bp.blogspot.com/-CPqwDOZT1kU/UFrVsoUvm7I/AAAAAAAAALg/9ZilRhKmNOQ/s72-c/Screenshot+-+09202012+-+04:36:34+PM.png
+blogger_id: tag:blogger.com,1999:blog-8533127149230967660.post-5425432844890702114
+blogger_orig_url: http://social-engine-tutorials.blogspot.com/2012/09/socialengine-426-file-media-manager.html
+---
+
+If you are running SE 4.2.6 and is encountering an error downloading the files you uploaded via admin's File &amp; Media Manager you are reading the right post.<br /><br />Users would rarely need to download the files in the the File &amp; Media Manager but if you need to download the files using this interface there is a show stopping error that will prevent you from doing so.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-CPqwDOZT1kU/UFrVsoUvm7I/AAAAAAAAALg/9ZilRhKmNOQ/s1600/Screenshot+-+09202012+-+04:36:34+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="100" src="http://2.bp.blogspot.com/-CPqwDOZT1kU/UFrVsoUvm7I/AAAAAAAAALg/9ZilRhKmNOQ/s400/Screenshot+-+09202012+-+04:36:34+PM.png" width="400" /></a></div><br />If you can't wait SE's update to fix this (they are busy with SE5) there is a quick fix you can use.<br /><br />Open the file 'application/modules/Core/controllers/AdminFiles.php' with a text editor. Go to line 234 (it should be the last line of a group of lines starting with "header"). Add a line below it:&nbsp; header("Content-Encoding: utf-8", true);. Then save the file. With this in place you should now be able to download the files you want.

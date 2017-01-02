@@ -1,0 +1,19 @@
+---
+layout: post
+title: Translation and Pluralization on SocialEngine
+date: '2012-06-11T20:20:00.001-07:00'
+author: Marco Enrico
+tags:
+- example
+- customization
+- library
+- transalation
+- locale
+- translate
+modified_time: '2013-07-23T01:16:35.341-07:00'
+thumbnail: http://2.bp.blogspot.com/-JaZ6WL-8mvk/T9a8tlUW4TI/AAAAAAAAAKs/JTXNUkNjhiw/s72-c/Screenshot-1.png
+blogger_id: tag:blogger.com,1999:blog-8533127149230967660.post-7175474767447821643
+blogger_orig_url: http://social-engine-tutorials.blogspot.com/2012/06/translation-and-pluralization-on.html
+---
+
+Translation is done in view scripts with the translate view helper.  Invoking it with a single string parameter will make it return string  translated to the auto-detected locale. You may also indicate a locale  short code as a last parameter and it will return the string translated  the locale indicated by the last parameter.<br /><br />Translations are done using the language files. The are the CSV files  under applications/languates/&lt;localeShort  Code&gt;/&lt;moduleName&gt;.csv. It may be the case that the string's  translation is not available in the indicated local (or the  auto-detected locale). If that's the case the view helper will return  the string untranslated and log the fact in firebug if you have the  plugin active on the browser and the site is in development mode.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-JaZ6WL-8mvk/T9a8tlUW4TI/AAAAAAAAAKs/JTXNUkNjhiw/s1600/Screenshot-1.png" style="margin-left: 1em; margin-right: 1em;"><img alt="untranslated messages information in firebug" border="0" src="http://2.bp.blogspot.com/-JaZ6WL-8mvk/T9a8tlUW4TI/AAAAAAAAAKs/JTXNUkNjhiw/s1600/Screenshot-1.png" title="information in firebug" /></a></div><br />This information is also logged in the log file translate.log.<br /><br />Pluralization is done with the same view helper with the following code snippet: <br /><script type="syntaxhighlighter" class="brush:php"><![CDATA[ <?php  echo $this->translate(   array(     '%s SingularWord',     '%s PluralWord',     $theNumber),   $this->locale()->toNumber($theNumber)); ?>  ]]></script><br /> The first parameter is an array whose first element is a format string  for the singular form of the word or phrase, the second element is the  plural form of of the word or phrase and the third element is the number  from which the view helper will determine which format string to use  (singular or plural). The second parameter is the number to be  substituted in the format string. It is wrapped with the locale view  helper which will return the number formatted in the auto-detected  locale.<br /><br />

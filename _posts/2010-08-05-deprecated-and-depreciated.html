@@ -1,0 +1,14 @@
+---
+layout: post
+title: Deprecated and Depreciated
+date: '2010-08-05T00:40:00.003+08:00'
+author: Marco Enrico
+tags:
+- errors
+- php
+modified_time: '2015-08-27T03:40:24.402+08:00'
+blogger_id: tag:blogger.com,1999:blog-4089002134272543494.post-518632695144266639
+blogger_orig_url: http://mvalviar.blogspot.com/2010/08/deprecated-and-depreciated.html
+---
+
+What's the relation between PHP error reporting and money? Nothing unless you're like me.<br /><br />PHP is deprecating some functions and issues warnings when deprecated functions are used. To turn it of if been using error_reporting(E_ALL &amp; ~<span style="color: rgb(255, 0, 0);">E_DEPRECIATED</span>). I've been doing some bug hunting and it seems errors are not being reported. I ran a script in php-cli and I got an undefined constant warning for E_DEPRECIATED. PHP assumes 'E_DEPRECIATED' which makes the expression "E_ALL &amp; ~E_DEPRECIATED" result in false or 0 (zero) which turns error reporting off.<br /><br />Yes, I'm dumb. A simple google search results in <span style="color: rgb(0, 153, 0);">E_DEPRECATED</span>. To enlighten my self I had to search in Wikipedia.<br /><br /><dl><br /><dt>Deprecation</dt><br /><dd><br /><blockqoute cite="http://en.wikipedia.org/wiki/Deprecated"><br />In computer software or authoring programs standards and documentation, the term deprecation is applied to software  features that are superseded and should be avoided. Although deprecated features remain in the current version, their use may raise warning messages recommending alternative practices, and deprecation may indicate that the feature will be removed in the future. Features are deprecated—rather than being removed—in order to provide backward compatibility and give programmers who have used the feature time to bring their code into compliance with the new standard.</blockqoute></dd><br /><br /><dt>Depreciation</dt><br /><dd><br /><blockquote cite="http://en.wikipedia.org/wiki/Depreciation"><br />Depreciation refers to two very different but related concepts: a) decline in value of assets, and b) allocation of the cost of tangible assets to periods in which the assets are used. The former affects values of businesses and entities. The latter affects net income. Generally the cost is allocated, as depreciation expense, among the periods in which the asset is expected to be used. Such expense  is recognized by businesses for financial reporting and tax purposes. Methods of computing depreciation may vary by asset for the same business. Methods and lives may be specified in accounting and/or tax rules in a country. Several standard methods of computing depreciation expense may be used, including fixed percentage, straight line, and declining balance methods. Depreciation expense generally begins when the asset is placed in service. Example: a depreciation expense of 100 per year for 5 years may be recognized for an asset costing 500.<br /></blockquote></dd></dl>
