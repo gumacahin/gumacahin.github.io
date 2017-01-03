@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gender and Society
+date: 2016-10-11 +0800
 ---
 
 Facebook has been kind enough to remind me that today, Oct 11<sup>th</sup> 2016

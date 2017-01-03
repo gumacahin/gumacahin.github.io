@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Gender and Society
-permalink: /gender-and-society.html
+title: Gender and Society: My Soc Sci 13 Assignment
 date: 2016-10-04
 tags: gender, society, equality, upou
 description: >
