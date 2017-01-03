@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Gender and Society
 permalink: /gender-and-society.html
 date: 2016-10-04
