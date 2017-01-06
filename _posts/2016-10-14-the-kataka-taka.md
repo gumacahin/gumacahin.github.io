@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Kataka-Taka
+date: 2016-10-14 +0800
 ---
 
 ![a kataka-taka left in-between the pages of a book](http://i.imgur.com/5VcDAzvh.jpg)

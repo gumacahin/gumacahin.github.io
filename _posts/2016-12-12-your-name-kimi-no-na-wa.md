@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kimi No Na Wa (Your Name)
+date: 2016-12-12 +0800
 ---
 
 I really have to get this out of my system… If you haven't seen the film the
