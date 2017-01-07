@@ -16,7 +16,7 @@ I'm currently taking BA Multimedia Studies (BAMS) in [UPOU](http://www2.upou.edu
 gender and society is with MMS 111: Gender and Multimedia. Through that course
 I learned about gender, society and some feminist theories. I barely scratched
 the surface and I wanted to learn more. BAMS have a list of electives that we
-can chose to take. I initially wanted to take Psych 101 but my adviser told
+can opt to take. I initially wanted to take Psych 101 but my adviser told
 me that the course is no longer being offered. I asked if it's possible to take
 Soc Sci 13 instead, it's not among the list of electives I can take, and he
 agreed. 

@@ -6,7 +6,7 @@ date: 2016-10-14 +0800
 
 ![a kataka-taka left in-between the pages of a book](http://i.imgur.com/5VcDAzvh.jpg)
 
-When I was in primary school, I don't do very well. Sure I was part of section
+When I was in primary school, I didn't do very well. Sure I was part of section
 "A" but I'm not very remarkable. I suck at Math and Social Studies. I very
 often miss school for no particular reason. But even with such poor performance
 and attendance the school found me fit to stay in the top section.
