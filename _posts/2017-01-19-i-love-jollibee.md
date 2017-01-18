@@ -4,7 +4,7 @@ layout: post
 date: 2017-01-19 06:13 +0800
 ---
 
-I finally wrote it down. I originally [posted this to reddit](https://np.reddit.com/r/Philippines/comments/5ooym4/are_there_any_filipino_brand_whose_serviceproduct/dcl5q6z/)
+I finally wrote it down. I originally [posted this on reddit](https://np.reddit.com/r/Philippines/comments/5ooym4/are_there_any_filipino_brand_whose_serviceproduct/dcl5q6z/).
 
 Jollibee. I believe McDonald's burgers are better but Jollibee has a very 
 special place in my heart.
