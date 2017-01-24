@@ -2,6 +2,7 @@
 layout: post
 title:  "Paper Sizes in the Philippines"
 date:   2016-09-28 18:36:00 +0800
+category: personal
 ---
 
 I can't understand why Filipino has mixed standards when it comes to
