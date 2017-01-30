@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: page
 title: "Gender and Society: My Soc Sci 13 Assignment"
-date: 2016-10-04 +0800
-tags: gender, society, equality, upou
 description: >
     This page contains links to references, image sources and other materials
     related to my assignment in SOC SCI 13.
+permalink: /gender-and-society.html
+hidden: true
 ---
 
 ## About
