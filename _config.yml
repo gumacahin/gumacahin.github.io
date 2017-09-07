@@ -18,7 +18,7 @@ email: ""
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marcoenri.co" # the base hostname & protocol for your site
-twitter_username: romancerico
+twitter_username: gumacahin
 github_username:  marcoenrico
 disqus:
   shortname: marcoenrico
