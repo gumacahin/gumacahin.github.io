@@ -5,7 +5,7 @@ date:   2016-09-28 18:36:00 +0800
 category: personal
 ---
 
-I can't understand why Filipino has mixed standards when it comes to
+I can't understand why Filipinos has mixed standards when it comes to
 measurements. Whenever you go to any store and you tell them how much of the
 item you are purchasing you'll always have to confirm the unit of measure. For
 example, when you ask for the price of a length of wire it's probably by the
