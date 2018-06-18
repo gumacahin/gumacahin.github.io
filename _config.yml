@@ -20,6 +20,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marcoenri.co" # the base hostname & protocol for your site
 twitter_username: gumacahin
 github_username:  marcoenrico
+facebook_username: marco.enrico.mjgardenph
+flickr_username: marcoenrico
+instagram_username: gumacahin
+linkedin_username: marcoenrico
+pinterest_username: mamamamarcoman
+#youtube_username: mvalviar
+#googleplus_username: +jekyll
+facebook_username: marco.enrico.mjgardenph
 disqus:
   shortname: marcoenrico
 google_analytics: UA-29098575-4

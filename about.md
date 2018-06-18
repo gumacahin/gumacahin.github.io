@@ -4,21 +4,14 @@ title: About
 permalink: /about/
 ---
 
-_I’m under construction._
+![guy looking intently on a piece of wood](https://i.imgur.com/oodzuTT.jpg)
 
-Hello!  My name is Marco Enrico Alviar. I’m a web developer, father and student.
-This is my little corner of the web. Here I plan on keeping a blog, portfolio
-and other things. I decided to keep things simple at first and just keep adding
-content. My previous attempts at blogging and maintaining a personal website all
-ended up being abandoned. You think I'm kidding? Check them out below:
+Hello! My name is Marco Enrico Alviar. I’m a web developer, student and
+gardening enthusiast.
 
-[https://marcoenrico.blogspot.com](https://marcoenrico.blogspot.com)
+This is my little corner of the web. This is where keep my blog, portfolio, 
+projects and plans for world domination.
 
-[https://mvalviar.blogspot.com/](https://mvalviar.blogspot.com/)
-
-[https://mvalviar.tumblr.com](https://mvalviar.tumblr.com)
-
-But not after spending hours making trying to make it
-look good. In hindsight, I might have been better of spending those hours
-generating content. And that is what I'm doing now.
-
+I started [Sensational Seeds](https://www.sensationalseeds.com.ph)  with the
+help of friends. Sensational Seeds is an online shop offering a number of
+gardening goods. It combines my passion for gardening and multimedia.
