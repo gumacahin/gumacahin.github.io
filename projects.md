@@ -30,5 +30,5 @@ The Bahay Kubo Project is an online collaborative learning activity by
 SNAP Hydroponics Growers Facebook group. Its goal is to create a “Bahay Kubo” 
 music video and learn and exchange ideas along the way.
 
-Learn more about the [Bahay Kubo Project](https://snaphydroponics.info/the-bahay-kubo-project/)
+Learn more about the [Bahay Kubo Project](https://snaphydroponics.info/the-bahay-kubo-project/).
 
