@@ -13,24 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Gumacahin
-email: ""
-description: "Thoughts and dreams of a man from Gumaca."
+title: Ang Gumacahin
+description: "The thoughts and dreams of a man from Gumaca."
 baseurl: "" # the subpath of your site, e.g. /blog
+email: mvalviar(at)gmail(dot)com
+author: Marco Enrico
 url: "http://marcoenri.co" # the base hostname & protocol for your site
 twitter_username: gumacahin
-github_username:  marcoenrico
+github_username:  gumacahin
 facebook_username: gumacahin
-#flickr_username: marcoenrico
 instagram_username: gumacahin
-#linkedin_username: marcoenrico
-#pinterest_username: mamamamarcoman
-#youtube_username: mvalviar
-#googleplus_username: +jekyll
-facebook_username: marco.enrico.mjgardenph
+
 disqus:
   shortname: marcoenrico
 google_analytics: UA-29098575-4
+
+header_pages:
+  - about.md
+  - projects.md
 
 # Build settings
 markdown: kramdown
