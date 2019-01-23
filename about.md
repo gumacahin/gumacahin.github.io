@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-![guy looking intently on a piece of wood](https://i.imgur.com/oodzuTT.jpg)
-
 Hello! My name is Marco Enrico Alviar. I’m a web developer, student and
 gardening enthusiast.
 
