@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about.html
 ---
 
 Hello! My name is Marco Enrico Alviar. I’m a web developer, student and
