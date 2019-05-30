@@ -5,6 +5,9 @@ date:   2016-09-28 18:36:00 +0800
 category: personal
 ---
 
+<em>In the Philippines the "short" bond paper measures <strong>8.5" ✕ 11"</strong>
+and the "long" bond paper measures <strong>8.5" ✕ 13"</strong></em>.
+
 I can't understand why Filipinos has mixed standards when it comes to
 measurements. Whenever you go to any store and you tell them how much of the
 item you are purchasing you'll always have to confirm the unit of measure. For
