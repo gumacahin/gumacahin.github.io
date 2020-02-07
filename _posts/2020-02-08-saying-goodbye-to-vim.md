@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Saying Goodbye to Vim
-date: 2020-02-08 5:83 +0800
+date: 2020-02-08 +0800
 ---
 
 I've been using Vim for web development for the last 11 years. Now that I'm 
